@@ -5,9 +5,8 @@
 
 ## Table of Contents
 
-* *[NodeJS APIs](nodejs-api.md)*
 
-| Sl.No|  Questions       |
+| S.No|  Questions       |
 |------|------------------|
 | 01. |[What does the runtime environment mean in Node.js?](#q-what-does-the-runtime-environment-mean-in-nodejs)|
 | 02. |[What is Node.js?](#q-what-is-nodejs)|
@@ -88,6 +87,7 @@
 | 77. |[Explain Error Handling in Nodejs?](#q-explain-error-handling-in-nodejs)|
 | 78. |[How to generate and verify checksum of the given string in Nodejs](#q-how-to-generate-and-verify-checksum-of-the-given-string-in-nodejs)|
 | 79. |[What is unicode in Nodejs?](#q-what-is-unicode-in-nodejs)|
+| 80. |[What is core modules in Nodejs?](#q-what-is-core-modules-in-nodejs)|
 
 <br/>
 
@@ -3347,6 +3347,21 @@ console.log(hashPwd); //ef5225a03e4f9cc953ab3c4dd41f5c4db7dc2e5b
 ## Q. ***What is unicode in Node.js?***
 
 Unicode represents the characters it supports via numbers called code points. The hexadecimal range of code points is 0x0 to 0x10FFFF (17 times 16 bits)..
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+## Q. ***What is core modules in Node.js?***
+
+Following lists some of the important core modules in Node.js
+ 
+http - http module includes classes, methods and events to create Node.js http server.
+url  - url module includes methods for URL resolution and parsing.
+querystring -	querystring module includes methods to deal with query string.
+path -	path module includes methods to deal with file paths.
+fs -	fs module includes classes, methods, and events to work with file I/O.
+util -	util module includes utility functions useful for programmers.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
